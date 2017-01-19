@@ -1,4 +1,4 @@
-package com.hao123.global.demo;
+package me.ndroid.demo.proguard;
 
 import org.junit.Test;
 

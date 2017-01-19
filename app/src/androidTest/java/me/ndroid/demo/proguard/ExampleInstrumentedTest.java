@@ -1,4 +1,4 @@
-package com.hao123.global.demo;
+package me.ndroid.demo.proguard;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hao123.global.demo", appContext.getPackageName());
+        assertEquals("me.ndroid.demo.proguard", appContext.getPackageName());
     }
 }
