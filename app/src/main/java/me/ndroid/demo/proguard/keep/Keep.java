@@ -1,9 +1,13 @@
 package me.ndroid.demo.proguard.keep;
 
 public class Keep implements INameInterface {
-    public NameField field = new NameField("KeepClassesMembers");
+    private NameField field;
+
+    public void setName(String name) {
+        field = new NameField(name);
+    }
 
     public String getName() {
-        return field.getName();
+        return field == null ? "null" : field.get();
     }
 }

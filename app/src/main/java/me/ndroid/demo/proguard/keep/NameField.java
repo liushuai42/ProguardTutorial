@@ -12,11 +12,11 @@ public class NameField {
         this.name = field;
     }
 
-    public String getName() {
+    public String get() {
         return name;
     }
 
-    public void setName(String name) {
+    public void set(String name) {
         this.name = name;
     }
 }
